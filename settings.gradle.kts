@@ -8,3 +8,7 @@ pluginManagement {
     }
 }
 
+include("api")
+include("batch")
+include("common")
+include("data")
