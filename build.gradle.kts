@@ -12,11 +12,11 @@ plugins {
     `java-library`
     maven
     idea
-    id("org.springframework.boot") version "2.1.6.RELEASE" apply false
+    id("org.springframework.boot") version "2.2.2.RELEASE" apply false
     id("org.jetbrains.kotlin.jvm") version "1.3.40" apply false
     id("org.jetbrains.kotlin.plugin.spring") version "1.3.40" apply false
-    id("com.github.spotbugs") version "1.6.10" apply false
-    id("com.google.cloud.tools.jib") version "1.3.0"
+    id("com.github.spotbugs") version "3.0.0" apply false
+    id("com.google.cloud.tools.jib") version "1.8.0"
 }
 group = "ta7uw"
 version = "1.0-SNAPSHOT"
