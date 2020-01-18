@@ -11,10 +11,9 @@ tasks {
 }
 
 dependencies {
-    implementation(project(":data"))
     api("org.springframework.boot:spring-boot-starter")
     api("org.springframework.boot:spring-boot-autoconfigure")
-
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.9.9")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.3")
 
