@@ -5,3 +5,12 @@ batch:
   sample-scheduler:
     hostname: localhost
 
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      client-id: batch-dev
+    admin:
+      client-id: admin-dev
+    template:
+      default-topic: default-event-v1

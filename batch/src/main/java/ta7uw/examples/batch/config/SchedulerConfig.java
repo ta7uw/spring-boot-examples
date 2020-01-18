@@ -1,4 +1,4 @@
-package ta7uw.examples.config;
+package ta7uw.examples.batch.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

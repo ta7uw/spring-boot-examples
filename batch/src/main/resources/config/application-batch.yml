@@ -5,3 +5,8 @@ batch:
   thread-pool-size: 10
   sample-scheduler:
     cron: "0,10,20,30,40,50 * * * * *"
+
+service:
+  kafka:
+    sample:
+      topic: sample-event-v1
