@@ -1,0 +1,7 @@
+server:
+  port: 8086
+
+service:
+  kafka:
+    sample:
+      topic: sample-event-v1
