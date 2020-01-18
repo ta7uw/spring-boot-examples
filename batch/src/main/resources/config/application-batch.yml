@@ -1,0 +1,7 @@
+server:
+  port: 8085
+
+batch:
+  thread-pool-size: 10
+  sample-scheduler:
+    cron: "0,10,20,30,40,50 * * * * *"

@@ -1,4 +1,4 @@
-package ta7uw.examples.batch;
+package ta7uw.examples;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

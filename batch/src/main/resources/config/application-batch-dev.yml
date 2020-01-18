@@ -1,0 +1,7 @@
+service:
+  hostname: localhost
+
+batch:
+  sample-scheduler:
+    hostname: localhost
+

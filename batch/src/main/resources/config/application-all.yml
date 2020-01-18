@@ -1,0 +1,2 @@
+spring.profiles: dev
+spring.profiles.include: common,common-dev,batch,batch-dev,data,data-dev
